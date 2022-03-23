@@ -1,7 +1,11 @@
-import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client';
-
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { 
+  ApolloProvider, 
+  ApolloClient, 
+  InMemoryCache, 
+  createHttpLink 
+} from '@apollo/client';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
